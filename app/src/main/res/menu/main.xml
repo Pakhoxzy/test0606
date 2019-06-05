@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.blank700.musicplayer.MainActivity">
+    <item
+        android:id="@+id/menu_theme"
+        android:orderInCategory="100"
+        android:title="@string/theme"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_playmode"
+        android:orderInCategory="100"
+        android:title="@string/playmode"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_sleep"
+        android:orderInCategory="100"
+        android:title="@string/sleep"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="100"
+        android:title="@string/about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_quit"
+        android:orderInCategory="100"
+        android:title="@string/quit"
+        app:showAsAction="never" />
+</menu>
